@@ -38,17 +38,39 @@
                                 <a href="." class="nav-link active" aria-current="page">首页</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">笔记</a>
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">角色介绍</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="notes/note1/" class="dropdown-item">笔记1</a>
+    <a href="roles/werewolf/" class="dropdown-item">狼人阵营</a>
 </li>
                                     
 <li>
-    <a href="notes/note2/" class="dropdown-item">笔记2</a>
+    <a href="roles/good/" class="dropdown-item">好人阵营</a>
+</li>
+                                    
+<li>
+    <a href="roles/third/" class="dropdown-item">第三方阵营</a>
 </li>
                                 </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="rules/" class="nav-link">游戏规则</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="terms/" class="nav-link">游戏术语</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="judge/" class="nav-link">法官话术</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="strategy/" class="nav-link">游戏攻略</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq/" class="nav-link">常见问题</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="event/" class="nav-link">赛事信息</a>
                             </li>
                             <li class="nav-item">
                                 <a href="about/" class="nav-link">关于</a>
@@ -67,7 +89,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="notes/note1/" class="nav-link">
+                                <a rel="next" href="roles/werewolf/" class="nav-link">
                                     下一章 <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -122,13 +144,25 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-wiki" class="nav-link">Welcome to 狼人杀Wiki</a>
+            <li class="nav-item" data-bs-level="1"><a href="#wiki" class="nav-link">狼人杀Wiki</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_1" class="nav-link">什么是狼人杀？</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+            <li class="nav-item" data-bs-level="2"><a href="#_4" class="nav-link">游戏版型介绍</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_8" class="nav-link">新手入门指南</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_9" class="nav-link">快速导航</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_10" class="nav-link">游戏文化与社区</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -139,21 +173,65 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-wiki">Welcome to 狼人杀Wiki</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="wiki">狼人杀Wiki</h1>
+<p>欢迎来到狼人杀Wiki！这里提供狼人杀游戏的全面介绍，包括角色设定、游戏规则、游戏术语、法官话术和游戏攻略等内容，帮助你快速了解并掌握这款风靡全球的推理游戏。</p>
+<h2 id="_1">什么是狼人杀？</h2>
+<p>狼人杀（Werewolf）是一款多人参与的语言逻辑推理类聚会型桌面游戏，玩家通过语言描述推动剧情发展，进行逻辑推理分析，投票处决嫌疑人，以达成各自阵营的胜利条件。狼人杀不仅是一款游戏，更是一种社交方式，它考验玩家的口才、推理能力和心理素质，同时也能锻炼玩家的团队协作能力。</p>
+<h3 id="_2">游戏起源与发展</h3>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>狼人杀的原型是上世纪八十年代末，莫斯科大学心理学系的迪米特里·达维多夫发明的一种警察与杀手互猜身份的游戏，也就是"杀手游戏"。</li>
+<li>2001年，一家法国游戏公司在"杀手游戏"基础上加入了狼的元素，并发行桌游"The Werewolves of Miller's Hollow"（米勒山谷狼人）。</li>
+<li>2012年，该游戏进入中国市场，并正式命名为"狼人杀"。</li>
+<li>2015年后，随着国内相关综艺节目热播，狼人杀迅速成为年轻人喜爱的社交游戏之一。</li>
+<li>近年来，狼人杀不断发展创新，推出了众多新角色、新规则和新玩法，同时也逐渐形成了专业的赛事体系和庞大的玩家社区。</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre></div>
+<h3 id="_3">游戏特点</h3>
+<ul>
+<li><strong>参与人数</strong>：通常为6~18人，官方标准局为6~12人，不同人数配置对应不同的角色分配</li>
+<li><strong>游戏核心</strong>：语言表达、逻辑推理、身份隐藏与识别、心理博弈</li>
+<li><strong>阵营划分</strong>：主要分为狼人阵营和好人阵营（村民阵营），部分玩法中还包括第三方阵营</li>
+<li><strong>游戏流程</strong>：夜晚与白天交替进行，夜晚角色发动技能，白天玩家发言、投票</li>
+<li><strong>胜利条件</strong>：狼人阵营通过夜晚杀人、白天放逐好人使好人数量与狼人数量相等获胜；好人阵营通过放逐所有狼人获胜；第三方阵营则有各自独特的胜利条件</li>
+</ul>
+<h2 id="_4">游戏版型介绍</h2>
+<p>狼人杀拥有丰富多样的游戏版型，每种版型都有其独特的玩法和策略。以下是一些常见的游戏版型：</p>
+<h3 id="_5">标准版型</h3>
+<ul>
+<li><strong>预女猎白</strong>：预言家、女巫、猎人、白痴+4普通狼人+4平民，是最经典的入门版型</li>
+<li><strong>预女猎守</strong>：预言家、女巫、猎人、守卫+4普通狼人+4平民，守卫的存在增加了游戏的守护与破解机制</li>
+</ul>
+<h3 id="_6">进阶版型</h3>
+<ul>
+<li><strong>狼王摄梦人</strong>：在标准版型基础上加入狼王（出局时可带走一人）和摄梦人（每晚保护或影响一名玩家）</li>
+<li><strong>白狼王骑士</strong>：白狼王（自爆可带走一人）和骑士（白天可决斗一名玩家，若为狼人则对方出局）的组合</li>
+</ul>
+<h3 id="_7">特殊版型</h3>
+<ul>
+<li><strong>迷雾鸦影</strong>：加入了乌鸦（诅咒一名玩家）、石像鬼（狼人阵营但夜间单独行动，可查验身份）等新角色</li>
+<li><strong>暗恋者</strong>：暗恋者（暗恋一名玩家，若暗恋对象出局则加入对方阵营）的加入增加了游戏的不确定性</li>
+</ul>
+<h2 id="_8">新手入门指南</h2>
+<p>如果你是狼人杀新手，以下是一些入门建议：</p>
+<ol>
+<li><strong>了解基本角色</strong>：首先熟悉预言家、女巫、猎人、狼人、平民等基本角色的技能和玩法</li>
+<li><strong>掌握游戏流程</strong>：了解夜晚各角色行动顺序和白天发言、投票的规则</li>
+<li><strong>观察学习</strong>：多观看其他玩家的游戏过程，学习他们的发言技巧和推理思路</li>
+<li><strong>积极参与</strong>：勇敢发言，表达自己的观点和推理，即使犯错也是学习的过程</li>
+<li><strong>尊重游戏</strong>：遵守游戏规则，尊重其他玩家，保持良好的游戏氛围</li>
+</ol>
+<h2 id="_9">快速导航</h2>
+<ul>
+<li><strong><a href="roles/werewolf/">角色介绍</a></strong>: 了解狼人杀中各种角色的技能和特点，包括狼人阵营、好人阵营和第三方阵营</li>
+<li><strong><a href="rules/">游戏规则</a></strong>: 掌握狼人杀的基本玩法和流程，包括不同人数配置和详细规则</li>
+<li><strong><a href="terms/">游戏术语</a></strong>: 熟悉狼人杀游戏中的专业术语，让你更快融入游戏讨论</li>
+<li><strong><a href="judge/">法官话术</a></strong>: 学习如何作为法官主持一局狼人杀游戏，掌握标准的游戏引导语言</li>
+<li><strong><a href="strategy/">游戏攻略</a></strong>: 获取狼人杀的游戏策略和技巧，提升你的游戏水平</li>
+<li><strong><a href="about/">关于</a></strong>: 了解本Wiki的相关信息和更新日志</li>
+</ul>
+<h2 id="_10">游戏文化与社区</h2>
+<p>狼人杀不仅是一款游戏，更形成了独特的游戏文化和庞大的玩家社区。无论是线下聚会、线上对战，还是观看专业赛事，都能感受到狼人杀的魅力。越来越多的年轻人通过狼人杀认识新朋友，锻炼社交能力，享受推理游戏的乐趣。</p>
+<p>本Wiki将持续更新，为大家提供最新、最全面的狼人杀游戏信息。如果你有任何建议或问题，欢迎通过<a href="about/">关于</a>页面中的联系方式与我们沟通。</p>
+<p><img alt="狼人杀" src="img/%E7%8B%BC%E4%BA%BA%E6%9D%801.png" /></p></div>
             </div>
         </div>
 
@@ -236,5 +314,5 @@ docs/
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-08-21 03:50:45.627149+00:00
+Build Date UTC : 2025-08-21 06:32:30.492931+00:00
 -->
