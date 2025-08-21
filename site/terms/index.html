@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh_Hans_CN" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="wutongxue132">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>游戏术语 - 狼人杀Wiki</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="..">狼人杀Wiki</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">首页</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">角色介绍</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../roles/werewolf/" class="dropdown-item">狼人阵营</a>
+</li>
+                                    
+<li>
+    <a href="../roles/good/" class="dropdown-item">好人阵营</a>
+</li>
+                                    
+<li>
+    <a href="../roles/third/" class="dropdown-item">第三方阵营</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../rules/" class="nav-link">游戏规则</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">游戏术语</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../judge/" class="nav-link">法官话术</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../strategy/" class="nav-link">游戏攻略</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../faq/" class="nav-link">常见问题</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../event/" class="nav-link">赛事信息</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../about/" class="nav-link">关于</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> 搜索
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../rules/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> 上一章
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../judge/" class="nav-link">
+                                    下一章 <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/wutongxue132/langrenshawiki/edit/master/docs/terms.md" class="nav-link"><i class="fa-brands fa-github"></i> 在GitHub上编辑</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="目录">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#_1" class="nav-link">狼人杀游戏术语</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#_2" class="nav-link">基础术语</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_6" class="nav-link">进阶术语</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#_10" class="nav-link">注意事项</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="_1">狼人杀游戏术语</h1>
+<p>狼人杀作为一款多人语言逻辑推理类游戏，拥有丰富的专业术语。熟悉这些术语有助于玩家更好地参与游戏、理解他人发言以及进行有效的逻辑推理。以下是狼人杀游戏中常用的术语及其解释。</p>
+<h2 id="_2">基础术语</h2>
+<h3 id="_3">阵营相关</h3>
+<ul>
+<li><strong>狼人阵营</strong>：游戏中的反派阵营，主要通过夜晚袭击和白天投票来消灭好人阵营玩家。</li>
+<li><strong>好人阵营</strong>：游戏中的正义阵营，包括平民和神民，目标是找出并消灭所有狼人。</li>
+<li><strong>平民</strong>：好人阵营中的普通角色，没有特殊技能，主要通过发言和投票来影响游戏进程。</li>
+<li><strong>神民</strong>：好人阵营中拥有特殊技能的角色，如预言家、女巫、猎人、守卫等。</li>
+<li><strong>第三方阵营</strong>：不属于狼人或好人阵营的独立角色，如丘比特、盗贼、野孩子等，通常有特殊的胜利条件。</li>
+</ul>
+<h3 id="_4">身份相关</h3>
+<ul>
+<li><strong>身份</strong>：指玩家在游戏中所扮演的角色，如狼人、预言家、女巫等。</li>
+<li><strong>底牌</strong>：玩家手中的身份牌，通常在游戏结束前不会公开。</li>
+<li><strong>金水</strong>：预言家在查验后确定的好人身份。</li>
+<li><strong>查杀</strong>：预言家在查验后确定的狼人身份。</li>
+<li><strong>银水</strong>：女巫用解药救起的玩家，通常被认为是好人身份（但可能是狼人自刀）。</li>
+<li><strong>铜水</strong>：守卫守护的玩家，通常被认为是好人身份（但可能被狼人袭击）。</li>
+<li><strong>身份高低</strong>：玩家在游戏中被认可的可信度，可信度高则身份高，反之则低。</li>
+</ul>
+<h3 id="_5">游戏进程相关</h3>
+<ul>
+<li><strong>上警</strong>：玩家参与竞选警长的行为。</li>
+<li><strong>退水</strong>：参与警长竞选的玩家放弃竞选的行为。</li>
+<li><strong>警徽流</strong>：预言家在竞选警长时表明自己接下来查验玩家的顺序，以便在死亡后通过警徽传递信息。</li>
+<li><strong>归票</strong>：警长或其他玩家在发言结束后总结并建议投票目标的行为。</li>
+<li><strong>冲票</strong>：多名玩家一起投票给同一个目标，通常是狼人阵营的策略。</li>
+<li><strong>分票</strong>：玩家分散投票，避免集中到某一个目标，通常是好人阵营防止被狼人冲票的策略。</li>
+<li><strong>绑票</strong>：某一阵营的票数超过其他阵营，足以控制投票结果的状态。</li>
+<li><strong>平安夜</strong>：夜晚没有玩家死亡的情况，可能是因为女巫使用了解药，或守卫守护了被狼人袭击的玩家。</li>
+<li><strong>遗言</strong>：玩家在死亡后发表的最后陈述。</li>
+<li><strong>过麦</strong>：玩家结束自己的发言。</li>
+<li><strong>自爆</strong>：狼人主动公开自己的身份并直接进入天黑阶段，通常是为了打断发言或避免被查杀。</li>
+</ul>
+<h2 id="_6">进阶术语</h2>
+<h3 id="_7">角色技能相关</h3>
+<ul>
+<li><strong>自刀</strong>：狼人在夜晚袭击自己的行为，通常是为了骗取女巫的解药或误导好人阵营。</li>
+<li><strong>空刀</strong>：狼人在夜晚不袭击任何玩家的行为，通常是为了隐藏身份或制造平安夜。</li>
+<li><strong>带刀</strong>：狼人在夜晚决定袭击目标的行为，通常由首狼或指挥狼负责。</li>
+<li><strong>救药</strong>：女巫的解药，可以救起被狼人袭击的玩家。</li>
+<li><strong>毒药</strong>：女巫的毒药，可以在夜晚毒死任意一名玩家。</li>
+<li><strong>盲毒</strong>：女巫在不清楚身份的情况下使用毒药。</li>
+<li><strong>连狼</strong>：丘比特将两名狼人连为情侣的情况。</li>
+<li><strong>人狼恋</strong>：丘比特将一名狼人和一名好人连为情侣的情况。</li>
+<li><strong>奶穿</strong>：女巫的解药和守卫的守护同时作用于同一个被狼人袭击的玩家，导致解药失效，玩家死亡的情况。</li>
+</ul>
+<h3 id="_8">发言与逻辑相关</h3>
+<ul>
+<li><strong>悍跳</strong>：狼人伪装成预言家或其他神民角色的行为。</li>
+<li><strong>对跳</strong>：两名或多名玩家都声称自己是同一个神民角色的行为。</li>
+<li><strong>站边</strong>：玩家支持某一方的观点或跟随某一角色的行为。</li>
+<li><strong>表水</strong>：玩家通过发言表明自己是好人身份的行为。</li>
+<li><strong>划水</strong>：玩家发言没有实质性内容，通常被认为是不好的行为。</li>
+<li><strong>逻辑流</strong>：玩家通过分析游戏中的逻辑关系来推断身份的方法。</li>
+<li><strong>状态流</strong>：玩家通过观察其他玩家的表情、语气等状态来推断身份的方法。</li>
+<li><strong>位置学</strong>：玩家根据座位位置来推断身份的方法，如边角位、夹狼位等。</li>
+<li><strong>轮次</strong>：游戏中各个阶段的顺序，如警徽流的第一验、第二验等。</li>
+<li><strong>信息位</strong>：掌握关键信息的玩家，如预言家、女巫等。</li>
+<li><strong>闭眼玩家</strong>：没有特殊技能，无法获取额外信息的玩家，如平民。</li>
+<li><strong>抗推位</strong>：在白天被怀疑并可能被投票出局的玩家。</li>
+<li><strong>焦点位</strong>：被其他玩家重点关注和讨论的玩家。</li>
+<li><strong>深水狼</strong>：隐藏得很深，不被怀疑的狼人。</li>
+<li><strong>倒钩狼</strong>：狼人故意站边好人阵营，攻击自己的狼队友，以获取好人信任的策略。</li>
+<li><strong>冲锋狼</strong>：狼人公开站边自己的狼队友，一起攻击好人的策略。</li>
+<li><strong>隐狼</strong>：隐藏在好人阵营中，不参与狼人团队行动的狼人角色。</li>
+<li><strong>警上狼</strong>：参与警长竞选的狼人。</li>
+<li><strong>警下狼</strong>：不参与警长竞选的狼人。</li>
+<li><strong>警徽情结</strong>：玩家对警徽的过度追求，可能影响判断。</li>
+<li><strong>贴脸</strong>：玩家通过发誓、威胁等非逻辑方式证明自己身份的行为，通常被视为违规。</li>
+<li><strong>场外</strong>：玩家提及游戏规则之外的信息来影响游戏的行为，通常被视为违规。</li>
+</ul>
+<h3 id="_9">其他术语</h3>
+<ul>
+<li><strong>首验</strong>：预言家在第一晚查验的玩家。</li>
+<li><strong>首刀</strong>：狼人在第一晚袭击的玩家。</li>
+<li><strong>首救</strong>：女巫在第一晚救起的玩家。</li>
+<li><strong>首守</strong>：守卫在第一晚守护的玩家。</li>
+<li><strong>首杀</strong>：狼人在第一晚袭击的目标。</li>
+<li><strong>次验/次刀/次救</strong>：预言家/狼人/女巫在第二晚的行动目标。</li>
+<li><strong>生推局</strong>：没有预言家或预言家已死，玩家只能通过发言和逻辑推理来找出狼人的局面。</li>
+<li><strong>屠边</strong>：狼人消灭所有平民或所有神民即可获胜的规则。</li>
+<li><strong>屠城</strong>：狼人消灭所有好人玩家才能获胜的规则。</li>
+<li><strong>交身份</strong>：玩家公开自己的角色身份。</li>
+<li><strong>抿身份</strong>：通过观察和分析推断其他玩家的角色身份。</li>
+<li><strong>保人</strong>：玩家在发言中为其他玩家的好人身份进行辩护。</li>
+<li><strong>踩人</strong>：玩家在发言中怀疑或攻击其他玩家。</li>
+<li><strong>盘狼坑</strong>：分析和推断可能是狼人的玩家。</li>
+<li><strong>盘逻辑</strong>：分析游戏中的各种逻辑关系和可能性。</li>
+<li><strong>警徽移交</strong>：警长在死亡时将警徽移交给其他玩家的行为。</li>
+<li><strong>撕警徽</strong>：警长在死亡时选择不将警徽移交给任何玩家的行为。</li>
+<li><strong>警徽流留警下</strong>：预言家的警徽流查验对象选择未参与警长竞选的玩家。</li>
+<li><strong>警徽流留警上</strong>：预言家的警徽流查验对象选择参与警长竞选的玩家。</li>
+</ul>
+<h2 id="_10">注意事项</h2>
+<ol>
+<li>狼人杀的术语在不同的游戏环境和玩家群体中可能会有细微的差异，以上解释为通用版本。</li>
+<li>新手玩家不必急于掌握所有术语，通过多玩游戏和观察其他玩家的发言，自然会逐渐熟悉这些术语。</li>
+<li>在游戏中，术语的使用应适度，重点还是要放在逻辑推理和发言内容上，避免过于依赖术语而忽略了游戏的核心。</li>
+<li>尊重游戏规则，避免使用贴脸、场外等违规发言方式，保持良好的游戏体验。</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright © 2025 <a href="https://wutongxue132.pages.dev/">wutongxue132</a></p>
+            <p>用<a href="https://www.mkdocs.org/">MkDocs</a>建立的文档。</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">搜索</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+            </div>
+            <div class="modal-body">
+                <p>从这里您可以搜索这些文档。在下面输入您需要搜索的内容。</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="搜索..." id="mkdocs-search-query" title="在此输入搜索内容">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="没有搜索到结果"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">键盘热键</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">键</th>
+                    <th>动作</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>打开这个帮助</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>下一页面</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>上一页面</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>搜索</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
