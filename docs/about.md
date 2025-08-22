@@ -23,7 +23,7 @@
 如果你对本Wiki有任何建议或问题，欢迎联系我们：
 
 - GitHub: [https://github.com/wutongxue132/langrenshawiki/](https://github.com/wutongxue132/langrenshawiki/)
-- 个人主页: [https://wutongxue132.pages.dev/](https://wutongxue132.pages.dev/)
+- 个人主页: [https://1328888.xyz/](https://1328888.xyz/)
 
 ## 更新日志
 

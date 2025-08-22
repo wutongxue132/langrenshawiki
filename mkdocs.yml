@@ -2,11 +2,12 @@ site_name: 狼人杀Wiki
 nav:
   - 首页: index.md
   - 角色介绍:
-    - 狼人阵营: roles/werewolf.md
+    - 角色概述: roles/overview.md
     - 好人阵营: roles/good.md
+    - 狼人阵营: roles/werewolf.md
     - 第三方阵营: roles/third.md
   - 游戏规则: rules.md
-  - 游戏术语: terms.md
+  - 游戏术语: roles/terms.md
   - 法官话术: judge.md
   - 游戏攻略: strategy.md
   - 常见问题: faq.md
