@@ -2,10 +2,10 @@ site_name: 狼人杀Wiki
 nav:
   - 首页: index.md
   - 角色介绍:
-    - 角色概述: roles/overview.md
-    - 好人阵营: roles/good.md
-    - 狼人阵营: roles/werewolf.md
-    - 第三方阵营: roles/third.md
+      - 角色概述: roles/overview.md
+      - 好人阵营: roles/good.md
+      - 狼人阵营: roles/werewolf.md
+      - 第三方阵营: roles/third.md
   - 游戏规则: rules.md
   - 游戏术语: roles/terms.md
   - 法官话术: judge.md
@@ -22,3 +22,7 @@ theme:
 repo_url: https://github.com/wutongxue132/langrenshawiki/
 site_author: wutongxue132
 copyright: 'Copyright © 2025 <a href="https://1328888.xyz/">wutongxue132</a>'
+
+plugins:
+  - search:
+      lang: zh_CN
